@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="main-body">
+        <div class="calc">
+            <div id="screen">
+                <input id="result" type="text">
+            </div>
+
+            <div class="buttons">
+
+                <button onclick="buttonclear('')" class="btm">C</button>
+                <div class="row">
+                    <button onclick="buttonclick(7)" class="btm">7</button>
+                    <button onclick="buttonclick(8)"class="btm">8</button>
+                    <button onclick="buttonclick(9)"class="btm">9</button>
+                    <button onclick="buttonclick('/')"class="btm">/</button>
+                </div>
+
+                <div class="row">
+                    <button onclick="buttonclick(4)" class="btm">4</button>
+                    <button onclick="buttonclick(5)"class="btm">5</button>
+                    <button onclick="buttonclick(6)"class="btm">6</button>
+                    <button onclick="buttonclick('*')"class="btm">x</button>
+                </div>
+
+                <div class="row">
+                    <button onclick="buttonclick(1)" class="btm">1</button>
+                    <button onclick="buttonclick(2)"class="btm">2</button>
+                    <button onclick="buttonclick(3)"class="btm">3</button>
+                    <button onclick="buttonclick('+')"class="btm">+</button>
+                </div>
+
+                <div class="row">
+                    <button onclick="buttonclick('.')" class="btm">.</button>
+                    <button onclick="buttonclick(0)"class="btm">0</button>
+                    <button onclick="buttonclick('-')"class="btm">-</button>
+                    <button onclick="equalclick()"class="btm">=</button>
+                </div>
+
+
+
+
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
